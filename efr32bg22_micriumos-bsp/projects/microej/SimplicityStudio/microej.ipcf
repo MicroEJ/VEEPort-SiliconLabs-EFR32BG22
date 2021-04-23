@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iarProjectConnection name="Simplicity Configurator" version="1.8">
+  <files>
+    <group name="autogen">
+      <path>autogen\sl_board_default_init.c</path>
+      <path>autogen\sl_component_catalog.h</path>
+      <path>autogen\sl_device_init_clocks.c</path>
+      <path>autogen\sl_event_handler.h</path>
+      <path>autogen\sl_event_handler.c</path>
+      <path>autogen\sl_iostream_handles.h</path>
+      <path>autogen\sl_iostream_handles.c</path>
+      <path>autogen\sl_iostream_init_instances.h</path>
+      <path>autogen\sl_iostream_init_usart_instances.c</path>
+      <path>autogen\sl_iostream_init_usart_instances.h</path>
+      <path>autogen\rtos_description.h</path>
+      <path>autogen\linkerfile.icf</path>
+      <path>autogen\.crc_config.crc</path>
+    </group>
+    <group name="gecko_sdk_3.0.0">
+      <group name="platform">
+        <group name="micrium_os">
+          <group name="init">
+            <group name="src">
+              <path>gecko_sdk_3.0.0\platform\micrium_os\init\src\sl_micrium_kernel.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_3.0.0\platform\micrium_os\init\inc\sl_micrium_kernel.h</path>
+            </group>
+          </group>
+          <group name="ports">
+            <group name="source">
+              <group name="generic">
+                <path>gecko_sdk_3.0.0\platform\micrium_os\ports\source\generic\arm_cpu_dwt_ts.c</path>
+              </group>
+              <group name="iar">
+                <path>gecko_sdk_3.0.0\platform\micrium_os\ports\source\iar\armv8m_cpu_a.asm</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\ports\source\iar\armv7m_cpu_c.c</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\ports\source\iar\armv7m_cpu_port.h</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\ports\source\iar\armv7m_os_cpu.h</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\ports\source\iar\armv8m_os_cpu_a.asm</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\ports\source\iar\armv7m_os_cpu_c.c</path>
+              </group>
+            </group>
+          </group>
+          <group name="cpu">
+            <group name="source">
+              <path>gecko_sdk_3.0.0\platform\micrium_os\cpu\source\cpu_core.c</path>
+            </group>
+            <group name="include">
+              <path>gecko_sdk_3.0.0\platform\micrium_os\cpu\include\cpu.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\cpu\include\cpu_cache.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\cpu\include\cpu_def.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\cpu\include\cpu_port_sel.h</path>
+            </group>
+          </group>
+          <group name="kernel">
+            <group name="source">
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_core.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_cfg_app.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_dbg.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_flag.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_mon.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_msg.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_mutex.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_prio.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_q.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_sem.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_stat.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_task.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_time.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_tmr.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_var.c</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\source\os_priv.h</path>
+            </group>
+            <group name="include">
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\include\os.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\include\os_port_sel.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\include\os_trace.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\kernel\include\os_type.h</path>
+            </group>
+          </group>
+          <group name="common">
+            <group name="source">
+              <group name="kal">
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\kal\kal_kernel.c</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\kal\kal_priv.h</path>
+              </group>
+              <group name="lib">
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\lib\lib_ascii.c</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\lib\lib_str.c</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\lib\lib_mem.c</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\lib\lib_str_priv.h</path>
+              </group>
+              <group name="logging">
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\logging\logging.c</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\logging\logging_chk_priv.h</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\logging\logging_priv.h</path>
+              </group>
+              <group name="ring_buf">
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\ring_buf\ring_buf.c</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\ring_buf\ring_buf_priv.h</path>
+              </group>
+              <group name="rtos">
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\rtos\rtos_err_str.c</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\rtos\rtos_utils.c</path>
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\rtos\rtos_utils_priv.h</path>
+              </group>
+              <group name="common">
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\common\common_priv.h</path>
+              </group>
+              <group name="preprocessor">
+                <path>gecko_sdk_3.0.0\platform\micrium_os\common\source\preprocessor\preprocessor_priv.h</path>
+              </group>
+            </group>
+            <group name="include">
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\common.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\kal.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\lib_ascii.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\lib_def.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\lib_math.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\lib_mem.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\lib_str.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\lib_utils.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\logging.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\rtos_err.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\rtos_opt_def.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\rtos_path.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\rtos_prio.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\rtos_types.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\rtos_utils.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\rtos_version.h</path>
+              <path>gecko_sdk_3.0.0\platform\micrium_os\common\include\toolchains.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="service">
+          <group name="system">
+            <group name="src">
+              <path>gecko_sdk_3.0.0\platform\service\system\src\sl_system_kernel.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\system\src\sl_system_init.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_3.0.0\platform\service\system\inc\sl_system_kernel.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\system\inc\sl_system_init.h</path>
+            </group>
+          </group>
+          <group name="iostream">
+            <group name="src">
+              <path>gecko_sdk_3.0.0\platform\service\iostream\src\sl_iostream_retarget_stdio.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\iostream\src\sl_iostream.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\iostream\src\sl_iostream_usart.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\iostream\src\sl_iostream_uart.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_3.0.0\platform\service\iostream\inc\sl_iostream.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\iostream\inc\sl_iostream_usart.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\iostream\inc\sl_iostream_uart.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\iostream\inc\sli_iostream_uart.h</path>
+            </group>
+          </group>
+          <group name="device_init">
+            <group name="src">
+              <path>gecko_sdk_3.0.0\platform\service\device_init\src\sl_device_init_dcdc_s2.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\device_init\src\sl_device_init_lfxo_s2.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\device_init\src\sl_device_init_dpll_s2.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\device_init\src\sl_device_init_emu_s2.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\device_init\src\sl_device_init_hfxo_s2.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_3.0.0\platform\service\device_init\inc\sl_device_init_dcdc.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\device_init\inc\sl_device_init_lfxo.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\device_init\inc\sl_device_init_clocks.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\device_init\inc\sl_device_init_dpll.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\device_init\inc\sl_device_init_emu.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\device_init\inc\sl_device_init_hfxo.h</path>
+            </group>
+          </group>
+          <group name="udelay">
+            <group name="src">
+              <path>gecko_sdk_3.0.0\platform\service\udelay\src\sl_udelay.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\udelay\src\sl_udelay_armv6m_iar.s</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_3.0.0\platform\service\udelay\inc\sl_udelay.h</path>
+            </group>
+          </group>
+          <group name="sleeptimer">
+            <group name="src">
+              <path>gecko_sdk_3.0.0\platform\service\sleeptimer\src\sl_sleeptimer.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\sleeptimer\src\sl_sleeptimer_hal_rtcc.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\sleeptimer\src\sl_sleeptimer_hal_prortc.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\sleeptimer\src\sl_sleeptimer_hal_burtc.c</path>
+              <path>gecko_sdk_3.0.0\platform\service\sleeptimer\src\sli_sleeptimer_hal.h</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_3.0.0\platform\service\sleeptimer\inc\sl_sleeptimer.h</path>
+              <path>gecko_sdk_3.0.0\platform\service\sleeptimer\inc\sli_sleeptimer.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="common">
+          <group name="src">
+            <path>gecko_sdk_3.0.0\platform\common\src\sl_slist.c</path>
+          </group>
+          <group name="inc">
+            <path>gecko_sdk_3.0.0\platform\common\inc\sl_slist.h</path>
+            <path>gecko_sdk_3.0.0\platform\common\inc\sl_enum.h</path>
+            <path>gecko_sdk_3.0.0\platform\common\inc\sl_atomic.h</path>
+            <path>gecko_sdk_3.0.0\platform\common\inc\sl_status.h</path>
+          </group>
+          <group name="toolchain">
+            <group name="src">
+              <path>gecko_sdk_3.0.0\platform\common\toolchain\src\sl_memory.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_3.0.0\platform\common\toolchain\inc\sl_memory_region.h</path>
+              <path>gecko_sdk_3.0.0\platform\common\toolchain\inc\sl_memory.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="emlib">
+          <group name="inc">
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_chip.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_cmu.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_rtcc.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_system.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_usart.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_gpio.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_emu.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_burtc.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_assert.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_bus.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_common.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_ramfunc.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_version.h</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\inc\em_core.h</path>
+          </group>
+          <group name="src">
+            <path>gecko_sdk_3.0.0\platform\emlib\src\em_cmu.c</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\src\em_rtcc.c</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\src\em_system.c</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\src\em_usart.c</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\src\em_gpio.c</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\src\em_emu.c</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\src\em_burtc.c</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\src\em_assert.c</path>
+            <path>gecko_sdk_3.0.0\platform\emlib\src\em_core.c</path>
+          </group>
+        </group>
+        <group name="CMSIS">
+          <group name="Include">
+            <path>gecko_sdk_3.0.0\platform\CMSIS\Include\arm_common_tables.h</path>
+            <path>gecko_sdk_3.0.0\platform\CMSIS\Include\arm_const_structs.h</path>
+            <path>gecko_sdk_3.0.0\platform\CMSIS\Include\arm_math.h</path>
+            <path>gecko_sdk_3.0.0\platform\CMSIS\Include\cmsis_compiler.h</path>
+            <path>gecko_sdk_3.0.0\platform\CMSIS\Include\cmsis_version.h</path>
+            <path>gecko_sdk_3.0.0\platform\CMSIS\Include\cmsis_iccarm.h</path>
+            <path>gecko_sdk_3.0.0\platform\CMSIS\Include\core_cm33.h</path>
+            <path>gecko_sdk_3.0.0\platform\CMSIS\Include\mpu_armv8.h</path>
+          </group>
+        </group>
+        <group name="Device">
+          <group name="SiliconLabs">
+            <group name="EFR32BG22">
+              <group name="Source">
+                <group name="IAR">
+                  <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Source\IAR\startup_efr32bg22.c</path>
+                </group>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Source\system_efr32bg22.c</path>
+              </group>
+              <group name="Include">
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22c224f512im40.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_aes.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_agc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_amuxcp.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_bufc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_buram.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_burtc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_cmu.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_cryptoacc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_dcdc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_devinfo.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_dma_descriptor.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_dpll.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_emu.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_eusart.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_frc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_fsrco.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_gpcrc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_gpio.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_gpio_port.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_hfrco.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_hfxo.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_i2c.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_iadc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_icache.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_ldma.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_ldmaxbar.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_ldmaxbar_defines.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_letimer.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_lfrco.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_lfxo.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_mailbox.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_modem.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_msc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_pdm.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_protimer.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_prs.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_prs_signals.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_rac.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_rfcrc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_rfsense.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_rtcc.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_smu.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_synth.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_syscfg.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_timer.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_ulfrco.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_usart.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_wdog.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\em_device.h</path>
+                <path>gecko_sdk_3.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\system_efr32bg22.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+      <group name="hardware">
+        <group name="driver">
+          <group name="mx25_flash_shutdown">
+            <group name="src">
+              <path>gecko_sdk_3.0.0\hardware\driver\mx25_flash_shutdown\src\sl_mx25_flash_shutdown.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_3.0.0\hardware\driver\mx25_flash_shutdown\inc\sl_mx25_flash_shutdown.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="board">
+          <group name="src">
+            <path>gecko_sdk_3.0.0\hardware\board\src\sl_board_init.c</path>
+            <path>gecko_sdk_3.0.0\hardware\board\src\sl_board_control_gpio.c</path>
+          </group>
+          <group name="inc">
+            <path>gecko_sdk_3.0.0\hardware\board\inc\sl_board_control.h</path>
+            <path>gecko_sdk_3.0.0\hardware\board\inc\sl_board_init.h</path>
+          </group>
+        </group>
+      </group>
+      <group name="util">
+        <group name="third_party">
+          <group name="printf">
+            <group name="src">
+              <path>gecko_sdk_3.0.0\util\third_party\printf\src\iostream_printf.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_3.0.0\util\third_party\printf\inc\iostream_printf.h</path>
+            </group>
+            <path>gecko_sdk_3.0.0\util\third_party\printf\printf.c</path>
+            <path>gecko_sdk_3.0.0\util\third_party\printf\printf.h</path>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group name="config">
+      <path>config\sl_mx25_flash_shutdown_config.h</path>
+      <path>config\sl_device_init_dcdc_config.h</path>
+      <path>config\sl_device_init_lfxo_config.h</path>
+      <path>config\sl_memory_config.h</path>
+      <path>config\sl_device_init_dpll_config.h</path>
+      <path>config\sl_board_control_config.h</path>
+      <path>config\cpu_cfg.h</path>
+      <path>config\os_cfg.h</path>
+      <path>config\sl_iostream_usart_vcom_config.h</path>
+      <path>config\sl_device_init_emu_config.h</path>
+      <path>config\common_cfg.h</path>
+      <path>config\rtos_cfg.h</path>
+      <path>config\rtos_err_cfg.h</path>
+      <path>config\sl_device_init_hfxo_config.h</path>
+      <path>config\sl_sleeptimer_config.h</path>
+    </group>
+    <path>app.c</path>
+    <path>main.c</path>
+    <path>app.h</path>
+  </files>
+  <SimplicityStudioMetadata>
+    <metadata>eJztfWtz4zaW9l9JufJh9922xPulK5kpx3ZntWvHLtud2alxSkVTkMRp3sKL256p/PcX4BUQSYkUQRFMdXa2bUvkwXMeAAcHwMHBv88eF7f3N4vLxdPfl49Pn68Wd8ufPi9unha/PJ59PPvHv5/PXmLLjiz31jADL7w1/Oezj/DTq+ufPv+8vP50C/98PuOfzz48nz3eLC/vbu/vfrn+5Wl5efF0cXP38/L+4foR/o09dv3pQRR++lkQLgVB+iTzwuJW4vLv//hQlHhjvQRG8H5vRNvwMQqSJxIB5PefLBvs+/4XwwEh/PIfv1W+unv5JzAj8mVrVRG0cE07XpWFrGGJH+eXH+c/W9F94CUy5vecIImFauciNwfrQBReNoKwdCwzsGLHC89fQn/u56+gjz3wz/mj5fi2ZVrR+2MUryxv/l2Y/PyYPzrfAPOLtwxXX5bijJtxc982orUXOPNM8tIL55ZrRfAf8/DbWyNYfTUCMF8F1isI5s6bIC/XthFul+E2jlbeV7edoAJGCIJXywTz8D2MgNPxZdNzHO/YEi0vjAJgdC0zf30F0I9le+4KCcCxrZfjNI08zza3hnWszrAt2sZ7x7p+8eBvHQvEWpfpx+hl1A+OE3DUS19A4AJ7HnpxYB5ZbiaiF/as3vrAKBt5OxhxZNnzaGsFq6VvBNE7fNByo/XxLx5d874XQFvVWffL28fF43zRmfbClNgA+JHlQPvUDfpV0qWhUYUm1XNvjJdwXpjlEs/gNtyII28D3BOUBLVcW5t5MmIFIPTsV7C6g9R5bjFiwXH8+fkM2Z3FCv32Ef1jGcEMfPVnRuDMCpOEvviA/rGtMPrVsGM4dj5no+dzMSImH0VBDJIPvaSwQ5Jnn+4/C+dcUcArEl68otQUjJwN9P2///jjwyEFYP/yIdEBdfy54NnCNC+vLMOGldGgA8+8DpeXsGHcgFdgN6ggTkMF2K6NCGzeG5vTFKoCNqbN34zAvQjAdRA0KLI27BBMQJkbw91cQkMELbDhmqBBG66nJrblfhlAj1TsbIF+Lsw1mlE0KPD9/cPd/yyvFg/fFwY+fRlZ+Zllrieh4B30+gNr1aQkksl8k4Pm+PrNBOk4J0y690BVHp6eFkMq8W18/za+o3++je/fxvejlPkzje/fhj/WVPk2/LFQC9+GP0ZU+Db8sabMt+GPrRr5Nvx9G/6+DX/fhj929fg2/H0b/oa0Vt+Gv9ZKfBv+vg1/6J9vw9+34e8oZb4Nf2zVyLfhD1Pit+ezP347+1ATyHt/dYuCeH/465sDTeJ3sOJDiOhHaEBm3PMZ/AS4prey3A386PPTp3Pt+eyvf4FikbruD1ngEXzMNRwAH4nNmeOtYhvMQhDF/iw2n4CDwq7ALItNmkEVE8HwXR8E0fujCX/CV3NZZ4V4+BD83w9rz14hevMysk31yoP548nOfP5waC+TqMblCqyN2I6SMM6ZmSDIquTHrEWjj6BcgCzrCv8wDiwkaSe4LN/bbyxh3hIfqmfPBW60NI3IsL3NbEsXXm0BbdFh0a9L0/bMLyFt9upLaIsPjuVQsa3hrlBXocxcRfhxqCgTVhHeFlUeCJ29G9Kmq07+0dgok1YnvzO2pI1abhihIX44+qrFHIc0Do0AFzQUpU2F0UE9KMs1hbVCHUReCC1XaAZWMoZTRVknvBWqnTgzeoh2Be+i+WGejtK7H2ex7Oh8TlHGqcKqcZQ/5K8Vn3w3lMuTuQGPIIK0b8L2fs98eGyFJ/CY/EnNJdsJtG90zXZey+PxG55veKs8d7D3vYa3Ua9v8V7D22Fgtn65ydrl+NNTJ5lRTjoY6pCpN1/2yLS3zFF/wY8rVBr9q4wOKgEb1eAc1kSInX4IYysC81dx36kwqNm8Fly94alRtN4EdKgY6tRu2aAWnU2pBUed2vYPVroiOsHTo18kR38611/FjMCByeraDGobA5xAL00/Xq6+RssoZKCTEUekMkXnVZRtm8RRfa6p5yHzT4XyVy3Vx5gZocMW5VDJeRVhN7ob1VZToSZr7SxXGsdHV2VUHAN2dp/WOUR6ikPvHApmWO0SICWltVwm412bBEm7xpnu4DjEQUeRE3gjUJGT+yJEtSdMegFgoL7RqfqstnFUJ3TL0Qy+N50MWEs8P8FR5rGukRjmFrCnW4mrt4YrsGZQvwxVb+2QNV2GTMwVd1XEoTE0U0ynr+OaZzTWsWGdyewjGK5eLRPJWW+Whu8zqWIJra+Wq5cNixpmsPpqt7YNJtXLcfXVz/FcFtXLYPXWLmSy8jJYvbWLI/DGpH45sL4a+oHlsahgjquvfr+zqNzvNDQLgcOibhms3tpFRsSkehmuvvpFRviFRf1yXL31sxwmPc8cV2/9nIBJ9Zw9sU7ttXs1mNQug0VhzHtlYCpbN+a9DjKPzYkYYtXKC9mhMl8Y8PaEKHVoJuyselT0O2rdo9GWBYbJwvJcVcsCWW8V331GNcyAMbR2lWZYHTvM4YvRfvlsT91DMezEEJHpbyG0OQmPwlYcEsjI+FavbddBrmNr3tumbOuFRpuCYpZGaFoWc00KZdIm0FFoUUheGLHgD9brmmGjpKnDxKy6XlPnmKn1vjpl01JgFTuutfA2G8vdULEYqSj2WlaKa47ho9G6UmlLc/uF0RZGqk0Apaj/JHQfs4cFCMBLvKbRxXJZzPWxHNgcR0ihleXi2GxmFa3HbWhRq3MQhzlHZ45AEDDpECFw812ENBoaEoluw2AhQrxJ5QIfVYUZ7Vuk1qP2rI6LBXtYTyWxyXj21w7EMfj2A+AHngnC0KNyHgGXxyb3OMJ5LVw2AnkbKoxOaGjCCDtVU0TgFbh6LdB+MVhYZN/RLQPVS7FyLYY59QhovZVkJP61qiKNENhk7cWItmxqmCPrryJwGNUwBdZbQeQSM6lgBqy3gqkTzKSKBbR+SmbrVOypWALrpWA+fWNPQxxZfxU9P2JzzNhF119Vn8mRg4BGQUkUrsmokhm0/kqivXoGzSuJrb+ajI4iJLb+amZpYxhVFEPXS9UisS6DNUpiGyMCps0jlfCW9F7dY9LqpLd6j5tYJ8UwckzMzjXnWVqdCrReLb8UiGWzZEvT/UkwezT9hvZDI3sQWUkj2ZQdVrPcQRVoNNsPi5rmwBgKHswTB45r5Ir0hQGIjGADIjjFXo130CmvxBxWbgb2wOzbdHPRrKpMU8c0PyWrmpbo6OnLtLodtWVhUCta5chWviA1s/M4Lsq9hVFNS3R0ewuz6tLR1mJa3Rp0DLksWGr1cb0WPMf7ylyZy1AY28pjkHJD34Cyb3fFxdrrN4995TGUNJVf+bbNvvIYSprKAydmX/cSJE3Vt5No9NvujZ4FB2/XaI09QOIsZy5BHUTaRpVxtXOINNXOLkthW/ESJO2RhHHFc4iUxxDGtc4Q0h49GNd627F3n8D1j1fANt7H9fpTDGMP+ymKfMQvMfVto6mkJUq/qzhLdHNbyJ6iO/Cm5NhkNTVyz89IzTp9iYmhrh7aAN1z6ID2YfPD7L8WOMbu8iWSYluSwNZ796yQttwa9jKIzNEyg7dRmQBJWXc/8KBk5rUvYVLW/yWegvoFyt6LsaTgsa1zRfE6gFMa9DA7xQ61+dY8gY1iS2JO1V1wUwngan1ksdf4X9dqrXC0bdv8TF1u+DIoh+usRyhIh57exNZIbb4MVJzjUFq38Io2wI1H21wmlcmRHK+LEXmONdoKKqlNieV4fVBK13i0FcKdplZgGbJnFoG3I9/xCBwvGG3lIyO+4KK43LFANSWXKEW9DMBmxJj2CqX5pY674PpOL7I6YlLNKblCwGmXEo/m2A6cpbm1/LEqL1E5qTEMyJGDB5Iw3mYDqUm3LYWqIsnKBwua5ECOVyWNjmZCmRLK8eqMGq9HaNM5Nq+qzMYf76AgoUsO5HhVRtxnJDTpuJtYVSRd92JBlQLJ8coYYQgY6S4llD51M9rMZKdmuh3Sqw6Uo6awIcfKzllraoZLw1nHLhu9BsNyvEIjH4clFDri8GtdgwtGS/m+09yClinee+xuHr8ymTmPI83CU6bQ1LvE0dOJZUGTrvuIjU4sC8qUUPo6sSxo0/k4VoMTy4IuOZB+TiwLmoC+XX/ULWZClc7byI1OLAvalFB6DsUsKNP+3tmBFtwubx8Xj8csuC06ppHcqQQjyN3eZWS82OOlsUkImGfazGthHdnOUlluiA5RB7EZMaXiDqweKo6ZiLCqWdfkg7t5TZ3QQrdBOz78eLQIB1KtKqZeyo08r6rTrf/0KpVjmSZsAyxpViI6VjE4QMBpiCgyohUO50iVHD9O4ps1NlQi4Iw2Dl+BY3M4YdQcv3t+/elBFH76WRD63pL2eMxdaw2yFhcPRwmqbXVhBGdZsb8E60AUXjbCaOca05omZBbsz1P65lDzeS3goy4TOCbPez2HaZafSVBYh3WM/Phd/eQ99Be6mIIgrWVesByJG8uI7q2D3LY2IqZwKUYhe2mMN3voxkKOlK72m9EW/btqvzniDPEh7Z34zRwtdqMrAQVYqhy8xOupNIEcKmX9g/EyJXUmIDgme9JhBsbbMO/OQLct9VYMjBj21FH/joFR7bQP3v3IM8YLmOrKAY6XKhNj5tLoSMJxOTUO6Q8xuOvRIpq6UlCipcuCY0DZoRlYsJmNtozXlYwKaLqcjJh8oysTRyXhOKD/iNFxHdU/KhvHIe1HDdrsSsCRORcPcLAOpjI0ZEjpah8G5lTGhQIrVQY2vjmZFlBgpczAeMHOnQk45paUFvovfW8yhpDAS5WJ7Xo61qDASpmB8RJUdSbgmDR0B/S3hKnYwgwpXe2NycwTc6h09TcNcztaOHJXBgqwVDmw4YxrIgzkUKnr//ZiTGV+jMMdhAd0xZ7lTmYzqQ42XV7AqHleutIBjkxyc4iFCXlK9iCe0piJejsTMICn5BiW/eK9TYQCDC1dFrzVeGeYu3KQY6XLQDgVlzFDSlV7fzWV2s+Q0tU+8KY0GOJwKfMwFfcoQ0pb+2VobVxjvPtou7OAI6bKRmBMxR5mSOlqv57OanKBlTIDIXDDqSwiYGjpsjBinpquFHTMZNNK/3Ay+6rhAPuq4bs73vGnrvrnWCkzEJrrzWQoyMFS5WBKruEwfmE8pWWSeJh1kimFWAwTYfF15U3FEuRQaejvZNfKsK06jpKC1pUDNiwrXwd20NNAJ0ukuf/L3dNIWyNYfTWC/ceRqheSBtZrq2tKKm86b4K8XNtGuF2G2zhaeV/HTvFbBXTiU2x5FcxTVuc1iIrMv/VgJ5UGuEaF0xqKNnzn+XLrwU4lee6LB1U9/TUCSbHJjWpj9aQEQd5pSDjHZ2FP5UCMUeDZY2RY2qfeLix2r00g8I7V9VMGs15eQdS3jSRtjR3NcjjD5zLo5nvEkWV38zuirQX18eFMpc2ViJXX/cByo/WI/kZxyXyK5MT2A/E9xyicpygSQ1KDbDJexS720/a8JlZRF6xBNhirBCVMta8jmlStNmzUa5eqHMieNn1Msmb4focG8LMV3QfeP4EZhfN7TpDEYs58LnJ4JIFlBlbseOH5S+hDMrJX0Mce+GeV7QzFLle7KYAMq8u0ayiwOYwDaJFO7RvjkMzWtMIfrHSJ496ItjtwBgTTEkeYPP0xF4j1PNjl8EWcrPylF87z25opFdFy+kdboeKSumThaYgSynuahsKeD2dDlrEir+imXUyR93og9okrd4biqLzMmHafKGYPA/Zn04/nVp4EaahSBsT/BQQusOdhlths6HIGp6q4eXFohUoDRVGhBjdtWOkD9xB0wC8cqD6IXIeDDXLETay0S2mzwVNTpmNA3+UKHY2wIstzS3fu6vqnzz8vrz/ddnnp8WZ5eXd7f/fL9S9Py8uLp4ubu5+X9w/Xj/DvLnIK5JeCIH2SeWFxK3E1AtDAcudn76I/FqvEb/4CkG83Q0lFN6Y5SxzSIHFEveTp9DErbJpjJ4JvrDAqhL8adoyQnf/N/nB+vjHPQ1gb8Ksam3pQxP9leJ6/O781/B+//4+7z0/3n5+WV4uH/5x//x/3D3f/c3359MvF7fV/zhzDr9F7Xip+JCV5olw6pJyHPjDDH13D9WbJr0ewsqGhZ9pdZtYKzLIes6tg5kp5vpt8kxdfm4Pv+BaH0q87L9T4fYN/FCLPv1rR9tz0qTQM2A5moWVDc5GQFlqikLaPVQTbnmtswOoltuzVDL0x27jxLO9Osxcjm9xh6vUQZ1qBGdvQ0wI+cFfANd+JCoqCuM5+sa6VC2cHK+hdh4Qy2cR4OG3gLLje6PWRRbWKyk9ncbM5qn9qhu5NQh8uSys8Co6VERnUMdRXXN0zM2Rwl+ay0r5Ox4DnWNFyHcBhe+l70AvMXjw9EEgEeDOBP2ZzgBiCKLLGKx113chyR2iJ6Y/HJC0XUfz3uedqxJG3Ae48fTIZLS2zbkrSBhl2FfY+cMVj0IrFBCwTzibA27kjiqdCsN5BsPZfZeg3nax42zOipfFCts5tEgtxitZpokvS3VVSHl4Pun6i8t/eGhD813/x/GkwfDUC13I34cyw7ZGMRAEBvEWBMTYIH6wMN7LMHs4RpQoJwBIEgRf08dP6DaRoacD6l5EIxTGE1r8OQsjsflGJOCrLCGbgq59MTRqtRu1Ds0/3n4VzjkCj0ILSRE/dM7OFaV5eWYadz+dyNAf77SBoLi+h/Bu0W0qAOTiSDAfmEfblCGzedyprLHpgVW3+BrvWRQCug6B7jxoI1o3hbi49Fy2XGa4JCFwH5/ptMdX7TNUnZgv0c2GuP6FdVMJjQgtAaDHo+yN9psGg3r1CG2mtQOdhYyijcF14/AIjrQyCenh6WhyA80O+nlt88t0Pf31zbPROessT6r2ztDfDeba3gqMU/Ojz06dz7fnsr6WgfJWrjB8zZ463imFLCUEU+3CMyba2Z9k29QziTuTCV30QRO+PJvz5IwooyRbMKvv8O7FJWatsWsYiwwJmZmCiMMK1tUG/JiXXMA/lAWTDVviH9UvgeaeoSK6uhtVHhIwSC1CQNlIruEyJotYIUuLbtYH6oPG87rZ76jp9pCHqHBPQsNpcgYFtpCeZxUkMHRphCWyPyGNQodw8lFHtiGyLygGOF7xTwFIRdFRt+bZNu7ZIkW1RkbHl/SE1yWuFx/TjZXmwuHv52PutyvPCXsWVr7dlu4gWTc5iLl/hSEuB8/1Sj2mfwIkpN09SYrvWkF7K2qtBECJalRpEPVsFLqB9idAX7V8qJuSYWt/St9bb46x1GV1AAU+tMKbdqwz7idyrZKPDNexZPgewrZfACCwQNvm3jX5Wiffsw9nj4vb+ZnG5ePr78vHp89Xibnl7d/X55vrx7OPZP/4N2z0cSV/B6vnsYzKl+PB8lhUFJ0KIc1j8x3/8Vn6c3vKXfFq47eWQswJrI7aj4hTYB+IZNKXxXOBGS9OIDDs9B04+gjdb0/bML2FVDHhFIraGu8qu5d33deXtwk6nT4RVAZUnmmUkOC0XrQKbe0UlD6YjQ/n4Abm7j5PSE1uTX1uSXeKLfb07v0dVmPrvsOqez/IG+PH2NvnwO9iK3fBj9umPsPGcbaPI/ziff/36Nd/ehfU3D2Eny2Z/AF1Ki54sW+dz1j7Rh9Yq+bs6b3gCDooxAsTMAb3hrxxCxF+SZux+lxkA1L/C73wjQj0leXD2/9C/8+y5onfmSv0lYaTYwfqI5P7xgVajr0wWGaK4boI+FYaZoTEzZo8gipIV/SmS+XzWOvQ/P/uefZyGxWY2qsv5gRoh29ZC8JDMeeJoWGZyvzyaVay+Rsso7ACJkAarbZ7cN50KM2ZG6PSTpKaSzL6IMjn5fRM9RSHH14/7CtJyQZSIyoR14QoFsGeCkldhH+74tpXfnt6Jj503l0US/CPfh3akx9uI0GXYqRMRkfPJBLkbddX315tldsDsWBGrl02f19e20et9OAHt9XrYr/Q4Am99BPhBmm7g2Pd/7/NyCJxer0dG1Of9yAi/9HofTjp7ve8EfV5/NXq9Dmv+tXvXzw2IF/Z5t4ftwYREgWF2MZ81Et79TvYXP2cz/2LY6P+7+zP1YjrWBykEnYmD/780QtOyjoaSS4Fzxd4ynE59uxFHT1q8zQZ62PnP4wGRcpbm9gtVYP2EBUjCS7wufjlaz4qknsAi+FGxdNmnVZWS0IGuLp76Xjn91Mv+ylahe4nyAwDnbHBqFXoB8ceRYgs/L/nz+PehYTr+5dIg9RLR0cutCnCMNEluDwnp3RPHC0Btv5eAtNkfLyIzgEcLyHtxTwmeH/Wrz0SK36tCUxFBehllDxHIeehRJZg16ycj2yA4XkoRRHkQyU4OhGxhJ0vF2c4P2isCW93vkIehiqGbGqSIPNlWGwFFPoVMjWKZPQCREWwA9HGj1eEJ1iFxfd/PcgP3lnKMkIzcQpWuzO68X6Y57ifleCHWcVLwtBgZsZVonFBoS+8BaUkUDTVpSewJNWkoVICasO3ximZNYrcSjqnPGlH5tWUURGW7lXSEobqkJCq71J6CpG0HsrLUKVlbSP9qW/117y7RMrICzb4RzMJOYjJFMghth5wysUI+9BWftB759shYbg07vRWEljA4FYHyqIl7iftIs3bEHUF7PtqXtB8rw+ogJJ/u5ZxY4cGhtPTSylfalZK9Atz44HhLvmFEHnQTu72DVmHjg+apkl0p3xRM4i1bUlG+ne8GptGaAdi0cID3Czn0dpF3CqXdN7eW3+2Fw7aSeD6/16f1C6nz2umVVp4U8UaSm7jLCy2GCOL51Dh0eQNlmuioxcvh1krWXas1FLL6DAcd++/0Tstp3A604OD6dfoC6m5ZOzzQ14jn24wkxAtZO+zySqvJCfFGniO79Qugo9qtBinijawddnmlzd4pkewpDVdIVxsj48U+vPpQ97obollpEJvREa+3WUoj3zKd0AqXxZmjI95t2THqXrVME5146vYmrBbYT0Sx22sOCmhA4Q2HXtub/CoNsJkvLh7mcFwNotjHbjg50FbaCK7cmtJHZuUKHjwfUS8aqpf7GIcbe1eJm4P2uatEJ34zD/oFHYW+xGvaOKF1O7wQ013m4ZG7o8wWTlNXicG7H3nGYd+qo9w2CwddRcLH3fVBd6urVMcoQnu9g9a4q/AWawsdRbZwILtKbOX2dhS6DmhX/zrM7rOjKHPjm9RxtpkSHCGyVchiR7nbNX1K26xcdRRpCbTryDKoWyerVehiR6E2tE4DiHx7MWhbulws2su0XOquiQ1arSl1lTpA+2+zzN1RpGNY9ov3Rluqtzq8PNJVZki7W/kr2hj9wBuiLfkB7Ta/c609RcnZVfE0Ja7pD6TYZeY0pbZYRzzuzm2aEvNbrKnKzK+Fpih0iJ4UD2GWh/Bx8+t1+4vEr63tLa3uHtgaof3v6DxSaL7JUH8R5T6he+5A7Pja7t2Ch1+3Gi7W6/jmnliajneZdZBg1d/b1UHCUcUSJZVnWvIbiT4Utw4xcwyxODX9mPw5zVOIbbPufMAf3ZMHp/G5ncw0xHOVrDHNpZF5XIjnmpKrlA9hGVDKD8t8FIS0/WlDGgGSmTywoolcG+XneD6MnU+xfBWNxW33sFqb2YGZ3lObpmoq/WY0FvdkozgZd7+dfYCtzLfACuUzDLN8FUXykeyxD0XiiyQ7CKKpTVYKL7A2FlQwe8mNbTtt1BE0tPADnhMETeUEWUjqsFupdQkqDhWoKLKo6Lx2RHENGS0OlXjO87wuS7ouyDQKbcmroEiKzumq0qfM2rQbh4oWFU3UdUXvpe2exBwHa1jlNE0ROyvekOjjINOwCUuaKImdm9Ru6pBWbUkWFFHSOY1vW1rbYf6wnrDX6Lquta7Xto7DwZJFQeE5SPAROte5IofKUzVd5AWN53pSXPFtDioq84rESbzeuinVOkJtGpEM61HkWhvdls7RQQU1RYU1yYlda7Libh0qSZYFURU1uWtBO/5bC9vOySKv8Hprc9PsEh4qTBN0XkGWtV+tVX3MFg1G0jVNVYVjRpOmbFQHS9VgoZIgcK31bZPf6mCpkqgrvKiIrXv/gZRYBwtUNE2QVY5TqY+X7QCokqDyvKJVFc796F0AjUtUXVLd7MB6Prv8CH3XZ2x5K/2TzBaHPnuV0b/FndfoD4glebxEltx8nTwNMaKfOUj0O3avJvwPQU2EBGbyowEw4bTCXq+KctVO96ZsX2If9iiDaOsp2+5QJquiIum8UG3kfRhrn8WIHeoSzImU9D7MRE6CHP1aCx6jkZcV6AxJdBteu/RNTFOYrjY81wLHBzLEnQb99epARp3AnaxVU6FvBzZOHsfBKQAcK6pu41DkYXEvE+MPQ45RKHAixyuiWDMtH4JCIkXZhAgkcOPjLi9zsqLUuKFDmL9KXrapMFiHHe/HuqTpgi6qAw7GzRnppkJiFTnWEBVO0zVeUESqDDYn4mOHNHQbH0HZDlKinQmiDCdwdIeL+nyDzBGUQcw+qY4EsPEoiiZzUnV2S5EdIqci4xwRWDGXV1dFQZN0usaqOXck6yyVSEuOJE5VdYlX6I6LBzJksk7UDlxiFiByEqcpMt2+ty8dKDtkpShJG05ixZgSobela1J1FZUuT0TaU/apIuASe25o24AfulmVKV6Zp6qEijtPiiDqmqjRtej7UtkyzxOGlbBTCidIkq7R9aD2JO1lnqgSKrFtJuuyJNfsONOlKZxMeyqhEus3oi6rAk/XS9ibhJl9ojCwxNSFUyRNVUVpWK6wfNPMU4VhxZiSFUmSRLVmo5UqUb9PhaXfKxQJnK7pPCdrA7sFZfpw5kkqoeIbr7wiyDInDjzYYWnS2eepxIobJ42XJWjMKW9i7EsIzzxTGFbMMZBklZcgVQM7Bljme/aJKrHiTUoUdQnO9SgvCe/J8c8+UQVUPH6JU3RR1oc25eVdBszTVELFIzBFgdOkgQ05lgqceZYwrHivUzle03itJviZAlP50p3XEDjLBEvYml2BE2tIOqepgjyIE17Sw+7CZgNP+5Y2ZV7VRKUmvp0uZfhlI+zzhaPFAww1GVophfKy+d57VSbAVQkW96RE1KoEgfJu1eEbZNghLAVLmnYIN/vRFCt4rsvQXZdroubpE8fkiHiAttqRURZ5idcFmfL2+sE7gthmDaLNfhCg8cUYXud1ifaG+4FLkSZDWgkZM2w69FR1RRPorl8dugRqMpw5dSs1AiersIdKlP3WVrdeTYa5HdzYZr0uSDx0aykHNLS46Ytx7lKs2K816xS8Jqqyqqp0Dyt0ut5saizu4ieCkHSVl1RBGbQjN1/uNjkq62nUBDjr4sVBfbymW+3YpjAHi/9eMwZziq7LCjeku7f3Lr/pkdjQEuHIrEnwf5Tn/+3uMWScxSj9rgY4vgmlSYqm6bSjMlvc3jgh9nDY2GKdzOmyIFA+HdL6wsqp8dfQg6EZVBRBGtI5bLyok20Ky8+qyImgKRkaQVXjhxyNW11QyjadOOrdvxuohQ1T1UWNH8Q4FpHG+P0iLFKIhxnjWPE2KOmczgm6MIhHkzNV3kbLOE0lUGLLGY4XqihRjvc4cOku40ztwiX4UkRZ0uRh1g1wvpg8C9HEVt1xCF6WJVFVFMpxH/vvUp4AVxha/FClxEkCHDUHb1fltdFT4KoAi6/c6YrKwfnB0EyV92NPgKkSLGGteFETOW3YEXD3KvAJsIXDJSfunMYLvDosX8S956yzRYDF3VBe4QSRq0m5RJGqnRveGedqBy0WfMxLiijIsjKoda+5zH4KhJGIsZUMXlc4XpHoxh3VceZPxn/YhVuypWuSIql1eQGpsxUUt+tMgq0SLnEKB46MnKLX5PuizRcK5ZnI0FjBS4RJ8pooSdKwYyO2sjkdxhq8CV7QVF7XhGE91QQBeR3lFDgjEROby7wk6Rz1Y/Qka8WFyxNpZxW8GGOqpnMKL1Pgq7hVPLm/orgYPL3NgpmAwAxl8msCLfmtSBtYBxffJlZkXeThaDkwXc3ptxkkCwOLL+CImsBJqkbB4u9QleVXJKtq/I5YS1aZXbEOLp6mQRBFnhNrcpbSpQu7wIR9sjCwxMleXZclhRcpuKs5V3kW1rwfFllZAxAZwQagG6ZXTBz0xZjLQZK9cj904iSUpom6RCMg/BCNU+KtmrFT4BSOzkHyg80Nvzp+EmwRiIn1e1VSYOuiaM+aSZscZ7WUCaquSqpSkyO/P2XZIFC0caZGAJytcgzYwYqvHqrQCUOBKsMTRVw8Nwm6CMQlaaooarxA089vpmxyjNURJsqcoknQjg3GmDU5yuoR46eGeVnQORrZs3LOsFsAcrtfuQQlFNiy/hhAcgBoRo7vI4mirgoyjYWfliQm97lMkkQSOTH7lAVF5mnkk2rbEtFdMZMkkUROHtWQNF4SaE60DrCI7qOZJIkEcOI0tyZCx06icdylJYfbyXbnbUN3PhehV8ypXM19TlRIzDyYXfPM1oi8w2DpxzTAxh1mUeRFmcrplpb0IcM8Qfow2FjMkCZLnKrRyNXUkr3suqPp8UcAJ47oimpyT+Tp+i8c1CZIIAabCIhXVBVySCMfT0v+4Hg2QfpK1ERgls5rCq/QnModYG87TfO3rTN/57zISTyn6RzF3huvgG28595L+hdbDkuKKfmw8FUInPiJH1XkRFmuudaPKkFLdKmF4izRTcPhNLiqQsZp0xVd0+WauzL70pZ1yay+mOqIJVdlHyRwYhsP6Kg8lbuaii3B4gLyYsO5+ISt7lfiIptVBS8xX1UUWdWVmusmB2FsuTXsZRCZLNyL04m6XeCYp8aLqiBzHNVt+0MUQokQzCRJJKDjezm8LGi8XHM973A0vsRTZRFHjscm6bImcZI+ZFu0drCwNVg08NcAGm9/kiRpPEcj/rmGujykpLTFDLOGRZXs4sXm+OhqU4mjEWPfyJc1NcJqABOTUg7OqqDnS2FdJD+ands1K2RhQx87c41ZrhIbERKuiaKmqzwFW1VGm5ZkjN9ciMhSgoyK2wrdB0mEjgRtKoAbsxC5UMcEBg3bDhVUlVcEjoIRJokwIs+xWFierqOCAIfnZZFFTuc0nkJ4y04PiYwoZmG1tLaL4OCw8UZUVY6nkmklI6MI8i6ubAeOF7CwqFLSUmAkbSqBFLMjksYJHKcOwVF+R3tS8jIAGzYOQDRQhd3RXgMYd/s0TkUXZFNY6dxP2XS4qpKkSZqmwmkFhWUn4KAcl4gZ4CzNreUzwEuCCWOCRIavi6Pbb9GxLAq7qiQRTOwd1PFQtz0A3X4dTpc0GlFLBA3JAguTPGDIsIA3jePRLVAUbAdBQxrLzyYRBDbcRMicpAo69SbBSjRpDRX1YaMydOU5XaKx9UMQsfGZOAdcwwOGjAg5hhM8XaCRYYXggY1t1hoaandSJbSNL/I0ZvwEC+n6H5M84NCwnAzQK+UFiToRRhgCVg0EgQ0bNmCjUBRFpT1svDAxpattEdXpnAAJUGSdRgp60pNiJZNenTPVkDkPEiGKnEgjKRzpThnOOnYZNRMkOMyTEHl0pIdTKKwBEWywc2i/ho2m8/mKKqpoU4e22UxuPmeSCQwZ1kV0tG6u8TTCWVMe0JJPNr8Zf72noCFb4SGA4XmNROhacjo1HzsjgZEN+RoWanfczwWOT/6PRtQCQUQ2uWGSCgIbERKki9DJ5Gj3DFbO1dZQUX+A9pyXBY6ToZ9JbeqVUZFMcJhkAkOGrwJLoiZp1MbPjAXAqqkENaYSjppw3JRonGYiSGAlYqSGhoaQEF6RNBmdkqbMRDa5YZIKAhu+JiFrnA6dbdrjRuKzMMkEhgwP3VBkSddopLG4vH1cPM4XWZonI8gnOcvIeLGZyMOWIES/LMr0Tk04cR9D0URREkUK3aaOIzdESUaC2IzY5qiKk0grA2eucLZGYbytcsRIlukmaurTSguyzvM6lVhQkhHTCa0QtVnfspmIharjpRYkvs6BMjbRWQytY4edCX4zOU3zfIETRE0XBBpp+Oq4sUwTtlqmqSEglszousZpskZj0rtDDBwa4TRbFFllZQcfcThQ51WOSn4lkhPHj5PzJxqjnOziwznhJU6Grh2FefBVcsBrjmk5v/70IAo//SwI88f0MpzFxcM8jOA8NPaXYB2IwstGYOEAeYq9prhCg+S74kYcqEdSSoMqmNMoyYqgajRyLbXhN8tnN2VqG1TA5yMSp0FeacR97uU0794FFFMQpLXMC5YjcQx09XbMYnZgnyLYoCqLGicrNHLmd6N3aTAx9TmeVkwBrLlqCqfKukjjiE5XPjcs7GL14XNT3elSoDXVZUGhMFnoSqcTv5ksRN71YRTXAfMDJI5TNIWnkWm+I6sv8XrirRTTAGNUgfNZVZJ0Ct5mZ0YDJjIv9qI0qEnIyGsov4IuSBSWTrpzykTkUD9OayOMBEnXBXVoB7VKKRvRuz0IrYvyhRMqVeb403d6M3j3I89gIhK4D6c7ahBbMrwiCoJAY5mwI7mMJOnqwWt9vi5VkzmUyOD0zRVlg3HXLITm9iGVUAIzApwqioIi08iC25VXx4CwQjOwYDdiYcW7D711uhCRCzy0BzqNdEtdWWYj6VcfbmvzfymqLImiLJ/ewrIRn96D0Lo4dtg8dUlSVQqL8F3pZOUASB9G60+KnEMXi1N0WR9hFrAOJu4GlArghApoE0BUaGT960poGJgTdwJwFfDQW4mTJDhZPX3f3/jm1JsprgK+pMLrnKRwwundKkaOkfWitO64mSRCT5VXaEQ9HsHo0vemPkjtqkG4p7Im6JpCI7C2I7nb9eTNKq4CFtbAwd4vQUMwAqVMZFrtxWhd0lVZ0nRNH2OZ2hImPkqVCuC7faoqa4quDB1QUcOnMfVFKkwDwj3VoWsqiSNsSFumYW5ZOPHVh1RcB8yZkiGnPAfn+ydn1V45xrQ5xTTA91BFiRc1mcbh3CMYfXsxJr7et6MFue8Hm6s6wmQqx7RcgbXlTj0+pUGbkmlV5yHZCo1LZLoSDVjJV9mHX1Cfw5LnFJnXBJk/fXiFPf2pgF07FTjnobFFNzTKIzTWyU8Gai+g4QVRRqnN5dPPWB3Dsl+8t2mTSipR8irzkFZoAE7vGDjeiomUWH1IxVTA4ywkVZFU/fQG1QknPssqFcDoVGVdFziJRh7vjnz6q4k30FIBLKpKFCVdEMTTG1Io90/gSO1ogREraaKkSSPMsfxg4s5/qQDuREkcJ4qiSiOLUndCl6G1gUROn9gdRbD2Cr1UQdR1GklgO/IbGBMfqEoF8JA1ntd5QRthrzpYT35fFVeB2KlCZ1Q0cYT1lWAdAjec+BIrqQQeBMDzvCBQyafSlVc2cgL3IbUudzC6Y1HVeEmikay9I6Xh1EPUwvpLK0VZliSeO/0+QPjuMpGsog+lmAr4ToCk8hxHI6tzZ0pDc72ZOqeYDvjOqs5ruiqNEKz+J5hQNa1LSwr0pVQaF3Z35DT+EyxMx00r03CGqkDPf4S91T9B3G9T2K+oaALKhXP6mdTXlTdxm4ppgFOqi7ygqlSuS29HqZNdAz1JNnfAY1FpmqILGo0su61YrGTImCCZDTpgjVNRFI2XIbFHs7o1gtVXIwDzVWC9gmDuvAnycm0b4XYZbuNo5X0t77CqfjVS6pQcdPJughv9VoMvkVdebdWoADba8xyvc7qkHd/d21BquY2UjtNQO1FqufsorS5H6QL0SiXteFe/oPTFg7/lDTL5Y2m51li5QnHSEjBke6vgw6yhoCuKIHHHL9HvowSVE3j2mNmFW1FTg5NwZkRFVzRRo2DdUpKyXkcUzkB/K/gp+1UdRJwaVYOTZ5nvEe65j5qkyTLMC4YPX6WRJZmT+1x+EkeWPY+2FizCh/71+9wPLDdaJ53L8sIoAIazTD8bqVshhOgnBhL9mWLCulg92pIsSZZ0ReyTJqCJK9SQdksfpykd5CprVvVo8X1/RZJ4lNWYOllst6WGtnPOa6quw/8db3wO8MFoe2loH+cCp2mcLGt8lZAoiOv4MOLIg4/NZ2ZgIiu/tjbo1zq13di2d3eiVE6G06maBamG4tISqv5BVnIt3ZVyVU0UFEFWq9FE+0v1wmXjcmulEDjmQzI1ueoXHVSt6MbJ2sjy1fScbgryqqDBYVWrWTw5WHh5N3u3MnVFFoTkpvLfzj6cPS5u728Wl4unvy8fnz5fLe6W9xdP/7389eJhcfHTzfXj2cczCAw23qT0tWWDj/P5/PIjMRfe7RDzV3ledIU56gfznU4wRz1g/nz2Ry2Eq+tPF59vnlDh/4Clv8SWHVnurWEGXnhr+BDKv//4UHx+Y70ERvCO9A0foyABmjBBfv8JYt/3/S+GA0L45T9+q3x194LqgHzZWlUEZfNo8rkAhJ79ClZ3sK48t/gO6vX8fIZurl0gf+MM2Zkzywhm4Ks/Q5mDbcv9ktgRKAT+g25a/9WwYxAmTyOQz0XByUdpg4G/eUlJe8XOFujnY2SYXy4N2/45MPwt4qco7hUVVQioQYGq4TmpCNRy96uCLjBwXuwBtCkkzy7+7wGsF7CNB7DpN6iRDBU9dRm2WmAdQGUeUfraBh24N45pDZKGdf0WBUbW4IdpUnladupqFPneLy/vvXDhrh483xqwPZ1CEVQTjvUvAz39i/do/QtcoqsQAgP6Fk31MxXdskr6OmglDdtlLgPzM5xdono55xq06NvpT2KC8W5/uYUD/q/CgJVyCpWgy3H9BsyJ95EH8HtsBeA+8CIvevfBkH3+JA3tCrzEmwYlkLCeOqCvzK2RoqOqQyF59vND7CLnHXqYj8CG3mVj1+eZb2EL0/xke0b0CBwDKmUO2b4GN8U/WdFdsALBYKb4BP4X7OmbwHCu4ZT7HU7QgJ02sal3+xvoxUTXQeAF4fXKalKH5/rW0Cls8mO0gtPFZJScbG9JZyvX7qqpp0xhrnLjbR7Aygoe350Xz56u6UqUgXD2TOMpDI0nGEyg8TJBGHrBrbcCTQ5k30HxFEP83c8/xes1CMDqCQQOWpK7iyM/nroZhj7xFVhPvKNURsgGdZjW5MpDFnjaFQHN72c3DsHqU2BsHPAnWJAIgA8t2I3lNpnhqXT0J+Pl0TdMy22aagk9lThB80pmigt37V276GrUBkUoDIwn0OXB+PoTHEXSnYwp2is4u7qwrY3bgJ39iS502yF8sLq34fh+uTWCgTQ5QWO686PrNxOki3WfvPSStylbK2L1sXHhcQqKXBoheARuaEXWq5UEBAxks06hzb2xATfA3UTbBj20CcwRL+LIu7Fe/gRjCNHtL2zb+zppda7SfGnDdPbBB8OFC7u4Yf+ag57gEsqVdxlMfXvkyjI2D8AxgqaVuAnokG6D/uJdvbuoVU26RuAMqjyRMsV+vXcnt69veBIXZLFxvQCka9R7KmIyvuHfjMDdO3pPRpMbKPK/gbECTXOPaQzcKOYhBBfQaDUviDKvCVTiEhote8pbhXevIAisFWi7IMp8peSriplzlYU9TVqbNE4zDaAebu3nFG7KpbeCU1tzT43MIvAWMa/JYvgIxxO0q6cAGNFFCH3fYVQ40W5U4KGluHDSVtiPkjW4X9dTd1DuXPv9Av7VFBNAQ49TbN4+PF0mhyrQqYKmxcTvn+7ubv538bS8Wjx8/5z9l53wQv8Vv1zdWC/LVN7yFy9wDHS+kuVGCT2bT7Fto4nMxNtj4jA3b2FNIiQiXaJIAp8a1GBehYVpQi8msswrEEYDTl1OVRloQtncqqbQL9B5mQH79mkGTTiHHHbIPJV3f+Ea9ntohYMvUhxQCP1743N8MuRR0S72/QCEIeo0x3jKBKDk6fuLh+tfntBvjNiDLOLj0nOmH78C7fSl7y9cWHXgUDj3NCbP0Eqk6ky6XuCok0eyDFcbJ5437wt+nkbbSq11unc08YDIdHYy6H7qyQ5s+dO2WDfeZv8a2Sm6Ovr33uDkZPGEktOc+wJHNC8CTnc34AS19r8A+PvPEAxdZRRq6U9k0GAvysJ2/hyHn+zoAWygWBCkiSomXTlw3tZiBX0iymTL6GhJYJief4pTXD+9R80xSJ8+Ma1BvqP8AF5BEAKkSnKEc9rNKltiCi8CkJ55nKw6sGruPbspkJV743lOmEDINBxRhj1cdxodfgUuGDJ65GSr+tNWIU8WNWCvPsmEK4avDnzY6XRjODS0DXqwrwLs2rfeKp746V/TvDEGO3B2so2V/esoU+nbqSrxoPnUTrhAv2fwnoYmsHMkRzZ+vbmYtrWF075bEGzAVezb2VJXj77y2/NZUyrLh7v764enRZ7G0rHMwAP/RKLPEhpC4xWsHiPP/PKrEVho7SMsSkYPoP/OUFrWO9/N//yY/1JckmAKgrSWecFyJC7/8kP+i+n5FixjBe2zmYciknLwTLX8jM8//iP9B0o6g+bEgOPstHD/cfbH/weHHRiE</metadata>
+  </SimplicityStudioMetadata>
+</iarProjectConnection>

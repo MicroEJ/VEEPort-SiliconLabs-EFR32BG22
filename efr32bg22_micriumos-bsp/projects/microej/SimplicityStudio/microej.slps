@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="microej">
+    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:3.0.2._640221274"/>
+    <properties key="universalConfig.generationDirectory" value="C:\GitProjects\P0243EFR32BG22-30\efr32bg22_micriumos-bsp\projects\microej\SimplicityStudio"/>
+    <properties key="universalConfig.allowedToolchainComponent" value="iar"/>
+    <properties key="projectCommon.boardIds" value="brd4184a:0.0.0.A01"/>
+    <properties key="projectCommon.partId" value="mcu.arm.efr32.bg22.efr32bg22c224f512im40"/>
+    <properties key="projectCommon.toolchainId" value="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904"/>
+    <properties key="universalConfig.projectTypeIds" value="com.silabs.ss.framework.ide.project.core.cdtMbsProjectType com.silabs.framework.project.ewp"/>
+    <properties key="projectCommon.importModeId" value="COPY"/>
+    <properties key="projectCommon.kitId" value="tb010a:0.0.0.A01"/>
+    <properties key="universalConfig.toolchainCompatibility" value="iar"/>
+  </descriptors>
+</model:MDescriptors>
